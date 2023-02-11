@@ -1,0 +1,14 @@
+.tab{
+    margin-left:auto ;
+    border-color: #3a1b2f;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #2c041d;
+    font-family: 'Fredoka One', cursive;
+}
+body{
+    background-image: url("https://i.pinimg.com/736x/d2/55/af/d255aff4b5e6fec99412ba2783356efb.jpg");
+}

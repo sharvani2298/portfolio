@@ -1,0 +1,105 @@
+body{
+    padding: 40px;
+    background-color: #cc7722;
+}
+.first{
+    background-image: url("https://wallpapercave.com/wp/wp7423829.jpg");
+    padding: 0px;
+    background-color: rgb(250,218,221);
+    border: 5px solid rgb(246, 245, 251);
+    overflow: hidden;
+    
+    
+}
+.second{
+    padding: 0px;
+    background-image: url("https://i.pinimg.com/originals/8e/43/52/8e435246e77b2906d1756bc00de86991.jpg"); 
+    border: 5px solid rgb(255, 255, 255);
+    position: relative;
+    margin: 20px;
+    /* height: 700px; */
+
+}
+nav{
+    display: flex;
+    width: 24;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(255,154,138);
+
+}
+.first h2{
+    color: palevioletred;
+    text-align:center;
+    font-family: 'Satisfy', cursive;;
+}
+h3{
+    color:rgb(138, 53, 81);
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+h1{
+    font-size: 40px;
+    padding-left: 700px;
+    padding-top: 200px;
+    position: absolute;
+    text-align:center;
+}
+.second h2{
+    padding-left: 10px;
+    text-align:right;
+    
+    
+}
+.second span{
+    color: #d30808;
+    
+}
+
+.logo{
+    color: rgb(0, 7, 12);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px;
+    /* height: 20px; */
+    margin-left:5%;
+}
+span{
+    color: rgb(138, 53, 81);
+}   
+.first a{
+    background:rgb(138, 53, 81);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+error{
+    border-radius: 75%;
+    width: 550px;
+    height: 750px;
+} 

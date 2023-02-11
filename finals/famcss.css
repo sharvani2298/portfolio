@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/273/882/original/wave-blue-background-wallpaper-free-vector.jpg") ;
+    /* font-family: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000073;
+    margin: 10px 0;
+    position: relative;
+}
+title::after{
+    content:"";
+    position: absolute;
+    width:20%; 
+    height: 2px;
+    background-image: linear-gradient(to left, transparent 5%, #726a95);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.member{
+    flex: 1 1 250 px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    max-width: 300px;
+    font-family: 'Teko', sans-serif;
+    font-size: 1234px;
+
+}
+.member:hover{
+    box-shadow: 0 10px 20px #02198B ;
+}
+.member img{
+    display: block;
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #130459;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.member h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #02198B;
+    margin: 15px 0;
+}
+.member p{
+    font-size: 15px;
+    color: rgb(5,1,74);
+    line-height: 1.6;
+}
+span{
+    color:#0000a4;
+}
+

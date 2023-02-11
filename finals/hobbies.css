@@ -1,0 +1,66 @@
+/* .parent_fam{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd21-34-07-kwan-b_1_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c5f913f0599facdd4ed6876293167c28");
+    background-repeat:repeat;
+    background-size: contain;
+
+        border: 10px solid black;
+        background-color: aqua;
+        width: 99%;
+        height: 740px;
+        position:relative ;*/
+body{
+    padding: 2%;
+    margin: 0%;
+    background-color: black;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   border-radius: 40px;
+}
+h1{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color:rgb(223,82,134);
+}
+.card{
+    width: 280px;
+    float: left;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50px;
+    background: white;
+}
+.card-image{
+    background-color: brown;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover ;
+    border-radius: 40px;
+}
+.card-1 {
+    background-image: url("https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?b=1&s=170667a&w=0&k=20&c=GnW36mPEYr3TRpPZNLtT75u8v2HOczvRxGckWUN3hVg=");
+}
+.card-2
+{
+    background-image: url("https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=nHMypkMTU1HUUW85Zt0Ff7MDbq17n0eVeXaoM9Knt4Q=");
+}
+    .card-3{
+    background-image: url("https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg");
+}
+.card-4{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2021/04/header-1200-49.png");
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: all 1s ease ;
+}
